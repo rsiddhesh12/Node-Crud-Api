@@ -6,8 +6,8 @@ const {Parser} = require("json2csv");
 const fs = require("fs");
 
 AWS.config.update({
-    accessKeyId: "AKIAZX5IKU6G4CRP6SSC",
-    secretAccessKey: "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",
+    accessKeyId: "***",
+    secretAccessKey: "****",
     // "region": "sa-east-1" 
   });
   const s3 =new AWS.S3();
